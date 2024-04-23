@@ -34,7 +34,6 @@ app.post('/api/fileanalyse', fileUpload,  (req, res, next) => {
     size: upfile.size
   }); 
 
-
   next(); 
 }); 
 
